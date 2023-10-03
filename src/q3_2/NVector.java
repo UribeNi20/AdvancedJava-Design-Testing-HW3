@@ -1,39 +1,36 @@
 package q3_2;
 /**
- * Class to represent a vector with n elements
+ * Class to represent a vector with size elements
  */
 public class NVector {
-    private double[] v;
+    private double[] elements;
 
     /**
-     * Constructor taking dimension n and initializing all elements to 0.
-     * @param n Size of the vector.
+     * Constructor taking dimension size and initializing all elements to 0.
      */
-    public NVector(int n) {
-        v = new double[n];
+    public NVector(int size) {
+        elements = new double[size];
     }
 
     /**
      * Copy constructor.
-     * @param other Another NVector to copy data from.
      */
     public NVector(NVector other) {
-        v = other.v.clone();
+        elements = other.elements.clone();
     }
 
     /**
      * VARARG constructor.
-     * @param values The values to initialize the vector with.
      */
     public NVector(double... values) {
-        v = values.clone();
+        elements = values.clone();
     }
 
     /**
      * @return Size of the vector.
      */
     public int length() {
-        return v.length;
+        return elements.length;
     }
 
     /**
@@ -42,7 +39,7 @@ public class NVector {
      * @return Element at index i.
      */
     public double get(int i) {
-        return v[i];
+        return elements[i];
     }
 
     /**
@@ -62,12 +59,12 @@ public class NVector {
 
         NVector other = (NVector) obj;
 
-        if (v.length != other.v.length) {
+        if (elements.length != other.elements.length) {
             return false;
         }
 
-        for (int i = 0; i < v.length; i++) {
-            if (v[i] != other.v[i]) {
+        for (int i = 0; i < elements.length; i++) {
+            if (elements[i] != other.elements[i]) {
                 return false;
             }
         }
@@ -83,7 +80,7 @@ public class NVector {
      */
     public NVector set(int i, double x) {
         NVector result = new NVector(this);
-        result.v[i] = x;
+        result.elements[i] = x;
         return result;
     }
 
@@ -93,11 +90,11 @@ public class NVector {
      * @return A new NVector that is the sum of this and other.
      */
     public NVector add(NVector other) {
-        assert v.length == other.v.length : "Vectors should be of the same length for addition";
+        assert elements.length == other.elements.length : "Vectors should be of the same length for addition";
 
-        NVector result = new NVector(v.length);
-        for (int i = 0; i < v.length; i++) {
-            result.v[i] = v[i] + other.v[i];
+        NVector result = new NVector(elements.length);
+        for (int i = 0; i < elements.length; i++) {
+            result.elements[i] = elements[i] + other.elements[i];
         }
         return result;
     }
@@ -108,11 +105,11 @@ public class NVector {
      * @return Scalar product of the two vectors.
      */
     public double sprod(NVector other) {
-        assert v.length == other.v.length : "Vectors should be of the same length for scalar product";
+        assert elements.length == other.elements.length : "Vectors should be of the same length for scalar product";
 
         double product = 0;
-        for (int i = 0; i < v.length; i++) {
-            product += v[i] * other.v[i];
+        for (int i = 0; i < elements.length; i++) {
+            product += elements[i] * other.elements[i];
         }
         return product;
     }
@@ -123,9 +120,9 @@ public class NVector {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("[");
-        for (int i = 0; i < v.length; i++) {
-            sb.append(v[i]);
-            if (i < v.length - 1) {
+        for (int i = 0; i < elements.length; i++) {
+            sb.append(elements[i]);
+            if (i < elements.length - 1) {
                 sb.append(" ");
             }
         }

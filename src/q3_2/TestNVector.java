@@ -1,5 +1,7 @@
+package q3_2;
 import org.junit.*;
 import static org.junit.Assert.*;
+
 
 public class TestNVector {
 
