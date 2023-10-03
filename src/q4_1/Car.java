@@ -1,9 +1,12 @@
+/*
+ * Nicolas Uribe
+ * Homework 3
+ * COP 4331 002
+ */
 package q4_1;
 
 import java.util.*;
 import java.text.SimpleDateFormat;
-
-
 
 /**
  * Represents a Car with attributes make, model, and built date.
@@ -26,7 +29,7 @@ public final class Car {
     public Car(String make, String model, Date builtDate) {
         this.make = make;
         this.model = model;
-        this.builtDate = new Date(builtDate.getTime()); // Defensive copy to ensure immutability
+        this.builtDate = new Date(builtDate.getTime());
     }
 
     /**
@@ -64,12 +67,10 @@ public final class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", builtDate=" + builtDate +
-                '}';
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        return "Make: " + make + " | Model: " + model + " | Built Date: " + sdf.format(builtDate);
     }
+
 
     /**
      * Returns a comparator for Car objects that compares by make and model.
@@ -81,12 +82,12 @@ public final class Car {
     public static Comparator<Car> getCompByMakeModel() {
         return new Comparator<Car>() {
             @Override
-            public int compare(Car car1, Car car2) {
-                int makeComparison = car1.getMake().compareTo(car2.getMake());
+            public int compare(Car a, Car b) {
+                int makeComparison = a.getMake().compareTo(b.getMake());
                 if (makeComparison != 0) {
                     return makeComparison;
                 }
-                return car1.getModel().compareTo(car2.getModel());
+                return a.getModel().compareTo(b.getModel());
             }
         };
     }
@@ -101,8 +102,8 @@ public final class Car {
     public static Comparator<Car> getCompByDate() {
         return new Comparator<Car>() {
             @Override
-            public int compare(Car car1, Car car2) {
-                return car1.getBuiltDate().compareTo(car2.getBuiltDate());
+            public int compare(Car a, Car b) {
+                return a.getBuiltDate().compareTo(b.getBuiltDate());
             }
         };
     }
@@ -132,14 +133,14 @@ public final class Car {
         Collections.sort(cars, getCompByMakeModel());
         System.out.println("Cars sorted by Make/Model:");
         for (Car car : cars) {
-            System.out.println("Make: " + car.getMake() + ", Model: " + car.getModel() + ", Built Date: " + sdf.format(car.getBuiltDate()));
+            System.out.println(car);
         }
 
         // Sort the cars list by built date and display the sorted collection
         Collections.sort(cars, getCompByDate());
         System.out.println("\nCars sorted by Built Date:");
         for (Car car : cars) {
-            System.out.println("Make: " + car.getMake() + ", Model: " + car.getModel() + ", Built Date: " + sdf.format(car.getBuiltDate()));
+            System.out.println(car);
         }
     }
 }
