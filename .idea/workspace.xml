@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab7faf2-9dc7-4b9d-ac29-3a1e553b60af" name="Changes" comment="Changes">
+    <list default="true" id="1ab7faf2-9dc7-4b9d-ac29-3a1e553b60af" name="Changes" comment="Code runs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/q3_2/NVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q3_2/NVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/q3_2/TestNVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q3_2/TestNVector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestNVector">
+  <component name="RunManager" selected="Application.NVector">
     <configuration name="NVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="q3_2.NVector" />
       <module name="Homework3" />
@@ -88,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestNVector" />
         <item itemvalue="Application.NVector" />
+        <item itemvalue="JUnit.TestNVector" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696066172872</updated>
       <workItem from="1696066173998" duration="1389000" />
-      <workItem from="1696304380197" duration="4030000" />
+      <workItem from="1696304380197" duration="5216000" />
     </task>
     <task id="LOCAL-00001" summary="Initial setup">
       <option name="closed" value="true" />
@@ -128,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696307010838</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Code runs">
+      <option name="closed" value="true" />
+      <created>1696310037505</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696310037505</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +154,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial setup" />
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="Code runs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code runs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
