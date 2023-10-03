@@ -20,12 +20,15 @@ public class AnimationTester
 {
     public static void main(String[] args)
     {
-        final MoveableShape car1 = new CarShape(0, 0, CAR_WIDTH);
-        final MoveableShape car2 = new CarShape(0, 75, CAR_WIDTH);
-        final MoveableShape car3 = new CarShape(0, 150, CAR_WIDTH);
-        final MoveableShape car4 = new CarShape(0, 225, CAR_WIDTH);
+        /**
+         * Added four cars to the list
+         */
+        final MoveableShape carA = new CarShape(0, 0, CAR_WIDTH);
+        final MoveableShape carB = new CarShape(0, 75, CAR_WIDTH);
+        final MoveableShape carC = new CarShape(0, 150, CAR_WIDTH);
+        final MoveableShape carD = new CarShape(0, 225, CAR_WIDTH);
 
-        List<MoveableShape> cars = Arrays.asList(car1, car2, car3, car4);
+        List<MoveableShape> cars = Arrays.asList(carA, carB, carC, carD);
         JFrame frame = new JFrame();
 
 

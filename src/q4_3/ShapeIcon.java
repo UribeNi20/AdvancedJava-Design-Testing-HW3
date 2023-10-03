@@ -14,6 +14,10 @@ import javax.swing.*;
  */
 public class ShapeIcon implements Icon
 {
+    /**
+     * Changed shape attribute to shapes attribute which is now a list.
+     * From "MoveableShape" to "List<MoveableShape>"
+     */
     public ShapeIcon(List<MoveableShape> shapes,
                      int width, int height)
     {
