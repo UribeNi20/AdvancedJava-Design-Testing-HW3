@@ -2,6 +2,7 @@ package q4_3;
 
 import java.awt.*;
 import java.util.*;
+import java.util.List;
 import javax.swing.*;
 
 /**
@@ -9,10 +10,10 @@ import javax.swing.*;
  */
 public class ShapeIcon implements Icon
 {
-    public ShapeIcon(MoveableShape shape,
+    public ShapeIcon(List<MoveableShape> shapes,
                      int width, int height)
     {
-        this.shape = shape;
+        this.shapes = shapes;
         this.width = width;
         this.height = height;
     }
@@ -27,14 +28,15 @@ public class ShapeIcon implements Icon
         return height;
     }
 
-    public void paintIcon(Component c, Graphics g, int x, int y)
-    {
+    public void paintIcon(Component c, Graphics g, int x, int y) {
         Graphics2D g2 = (Graphics2D) g;
-        shape.draw(g2);
+        for (MoveableShape shape : shapes) {
+            shape.draw(g2);
+        }
     }
 
     private int width;
     private int height;
-    private MoveableShape shape;
+    private List<MoveableShape> shapes;
 }
 

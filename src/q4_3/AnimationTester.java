@@ -12,13 +12,19 @@ public class AnimationTester
 {
     public static void main(String[] args)
     {
+        final MoveableShape car1 = new CarShape(0, 0, CAR_WIDTH);
+        final MoveableShape car2 = new CarShape(0, 25, CAR_WIDTH);
+        final MoveableShape car3 = new CarShape(0, 50, CAR_WIDTH);
+        final MoveableShape car4 = new CarShape(0, 75, CAR_WIDTH);
+
+        List<MoveableShape> cars = Arrays.asList(car1, car2, car3, car4);
         JFrame frame = new JFrame();
 
         final MoveableShape shape
                 = new CarShape(0, 0, CAR_WIDTH);
 
-        ShapeIcon icon = new ShapeIcon(shape,
-                ICON_WIDTH, ICON_HEIGHT);
+        ShapeIcon icon = new ShapeIcon(cars, ICON_WIDTH, ICON_HEIGHT);
+
 
         final JLabel label = new JLabel(icon);
         frame.setLayout(new FlowLayout());
@@ -30,15 +36,15 @@ public class AnimationTester
 
         final int DELAY = 100;
         // Milliseconds between timer ticks
-        Timer t = new Timer(DELAY, new
-                ActionListener()
-                {
-                    public void actionPerformed(ActionEvent event)
-                    {
-                        shape.translate(1, 0);
-                        label.repaint();
-                    }
-                });
+        Timer t = new Timer(DELAY, new ActionListener() {
+            public void actionPerformed(ActionEvent event) {
+                for (MoveableShape car : cars) {
+                    car.translate(1, 0);
+                }
+                label.repaint();
+            }
+        });
+
         t.start();
     }
 
