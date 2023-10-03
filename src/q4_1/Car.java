@@ -10,10 +10,8 @@ import java.text.SimpleDateFormat;
 
 /**
  * Represents a Car with attributes make, model, and built date.
- * <p>
  * Class Invariant:
  * - The built date should never be in the future.
- * </p>
  */
 public final class Car {
 
