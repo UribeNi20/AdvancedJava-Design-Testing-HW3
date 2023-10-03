@@ -1,3 +1,8 @@
+/*
+ * Nicolas Uribe
+ * Homework 3
+ * COP 4331 002
+ */
 package q4_3;
 
 import java.awt.*;

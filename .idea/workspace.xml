@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab7faf2-9dc7-4b9d-ac29-3a1e553b60af" name="Changes" comment="Added Tester. Setting up for 4.3">
+    <list default="true" id="1ab7faf2-9dc7-4b9d-ac29-3a1e553b60af" name="Changes" comment="Fixing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/q4_3/MoveableShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q4_3/MoveableShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/q4_3/AnimationTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q4_3/AnimationTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/q4_3/ShapeIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q4_3/ShapeIcon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +133,7 @@
       <workItem from="1696313587653" duration="2562000" />
       <workItem from="1696324924552" duration="1906000" />
       <workItem from="1696328312604" duration="595000" />
-      <workItem from="1696331841364" duration="6929000" />
+      <workItem from="1696331841364" duration="7628000" />
     </task>
     <task id="LOCAL-00001" summary="Initial setup">
       <option name="closed" value="true" />
@@ -231,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696338134671</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixing">
+      <option name="closed" value="true" />
+      <created>1696339305762</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696339305762</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +268,8 @@
     <MESSAGE value="Made use of toString method" />
     <MESSAGE value="Took animation code from Chapter 4. Setting up for 4.3" />
     <MESSAGE value="Added Tester. Setting up for 4.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Tester. Setting up for 4.3" />
+    <MESSAGE value="Fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
