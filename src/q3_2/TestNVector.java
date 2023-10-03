@@ -1,3 +1,9 @@
+/*
+ * Nicolas Uribe
+ * Homework 3
+ * COP 4331 002
+ */
+
 package q3_2;
 import org.junit.*;
 import static org.junit.Assert.*;
