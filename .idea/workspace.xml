@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab7faf2-9dc7-4b9d-ac29-3a1e553b60af" name="Changes" comment="4.2">
+    <list default="true" id="1ab7faf2-9dc7-4b9d-ac29-3a1e553b60af" name="Changes" comment="4.2 almost done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/q4_2/ColorFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q4_2/ColorFrame.java" afterDir="false" />
     </list>
@@ -55,13 +55,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Car">
-    <configuration name="AnimationTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q4_3.AnimationTester" />
+  <component name="RunManager" selected="Application.ColorFrame (2)">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q4_1.Car" />
       <module name="Homework3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q4_3.*" />
+          <option name="PATTERN" value="q4_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q4_1.Car" />
+    <configuration name="ColorChangeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q3_1.ColorChangeApp" />
       <module name="Homework3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="q4_1.*" />
+          <option name="PATTERN" value="q3_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorFrame (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q4_2.ColorFrame" />
+      <module name="Homework3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="q4_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorFrame (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q4_2.ColorFrame" />
+      <module name="Homework3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="q4_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,41 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q3_2.NVector" />
-      <module name="Homework3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="q3_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="q3_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="q3_2" />
-      <option name="MAIN_CLASS_NAME" value="q3_2.TestNVector" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ColorFrame (2)" />
+        <item itemvalue="Application.ColorChangeApp" />
+        <item itemvalue="Application.ColorFrame (1)" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.ColorFrame" />
-        <item itemvalue="Application.AnimationTester" />
-        <item itemvalue="Application.NVector" />
-        <item itemvalue="JUnit.TestNVector" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +145,7 @@
       <workItem from="1696324924552" duration="1906000" />
       <workItem from="1696328312604" duration="595000" />
       <workItem from="1696331841364" duration="9518000" />
-      <workItem from="1696378989505" duration="1423000" />
+      <workItem from="1696378989505" duration="6231000" />
     </task>
     <task id="LOCAL-00001" summary="Initial setup">
       <option name="closed" value="true" />
@@ -277,7 +275,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696379221889</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="4.2 simplified">
+      <option name="closed" value="true" />
+      <created>1696380466949</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696380466949</updated>
+    </task>
+    <task id="LOCAL-00018" summary="4.2 almost done">
+      <option name="closed" value="true" />
+      <created>1696380839419</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696380839419</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +324,9 @@
     <MESSAGE value="4.3 Extra Credit completed." />
     <MESSAGE value="4.3 Extra Credit completed. With some comments." />
     <MESSAGE value="4.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.2" />
+    <MESSAGE value="4.2 simplified" />
+    <MESSAGE value="4.2 almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.2 almost done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
