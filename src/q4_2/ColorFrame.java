@@ -28,19 +28,22 @@ public class ColorFrame extends JFrame {
         setTitle("Color Changer");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(new FlowLayout());
+        setLayout(new BorderLayout());  // Change to BorderLayout
 
-        // What color the box will be to create affect
+        // What color the box will be to create effect
         colorIcon = new ColorIcon(Color.WHITE, Color.BLACK, 50, 50);
         colorLabel = new JLabel(colorIcon);
-        add(colorLabel);
+        add(colorLabel, BorderLayout.CENTER);  // CENTER
 
         Color[] colors = new Color[]{Color.RED, Color.YELLOW, Color.BLUE};
-        //Given in instructions
+        JPanel buttonPanel = new JPanel(new FlowLayout());
+
         for (int i = 0; i < 3; i++) {
             btn[i] = createButton(i, colors);
-            add(btn[i]);
+            buttonPanel.add(btn[i]);  // Add buttons to the panel
         }
+
+        add(buttonPanel, BorderLayout.SOUTH);  // Add panel to SOUTH
     }
 
     /**

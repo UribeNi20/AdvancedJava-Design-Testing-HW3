@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab7faf2-9dc7-4b9d-ac29-3a1e553b60af" name="Changes" comment="4.2 almost done">
+    <list default="true" id="1ab7faf2-9dc7-4b9d-ac29-3a1e553b60af" name="Changes" comment="Comments added to 4.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/q4_2/ColorFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/q4_2/ColorFrame.java" afterDir="false" />
     </list>
@@ -145,7 +145,7 @@
       <workItem from="1696324924552" duration="1906000" />
       <workItem from="1696328312604" duration="595000" />
       <workItem from="1696331841364" duration="9518000" />
-      <workItem from="1696378989505" duration="6231000" />
+      <workItem from="1696378989505" duration="7142000" />
     </task>
     <task id="LOCAL-00001" summary="Initial setup">
       <option name="closed" value="true" />
@@ -291,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696380839419</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Comments added to 4.2">
+      <option name="closed" value="true" />
+      <created>1696385453990</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696385453990</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +334,8 @@
     <MESSAGE value="4.2" />
     <MESSAGE value="4.2 simplified" />
     <MESSAGE value="4.2 almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.2 almost done" />
+    <MESSAGE value="Comments added to 4.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments added to 4.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
